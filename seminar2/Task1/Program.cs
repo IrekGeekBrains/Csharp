@@ -11,11 +11,10 @@ int InputInt(string message){
 int num = InputInt("Введите трехзначное число: ");
 if(num > 99 && num < 1000)
 {
-    int result = num / 10;
-    int result1 = 100 + result;
-    int result2 = result1 % 10;
-
-    Console.WriteLine(result2);
+    int result = num % 100;
+    int result1 = result / 10;
+    
+    Console.WriteLine($"Центральная цифра {result1}");
 }else{
     Console.WriteLine("Число не трехзначное!");
 }
