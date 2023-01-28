@@ -7,7 +7,7 @@ int Random (){
 }
 
 int chance = Random();
-int num1 = chance / 100;
+int num1 = (chance / 100);
 int num2 = chance % 10;
 
 Console.WriteLine($"Трехзначное случайное число {chance} результат {num1}{num2}");
