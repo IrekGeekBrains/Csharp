@@ -25,7 +25,4 @@ double Distance(double x1, double y1, double z1, double x2, double y2, double z2
     return Math.Sqrt(a * a + b * b + c * c);
 }
 
-// double result = Distance(numX1, numY1, numX2, numY2);
-// Console.WriteLine(result);
-//                          либо
 Console.WriteLine("Результат: " + Distance(numX1, numY1, numZ1, numX2, numY2, numZ2));
