@@ -32,7 +32,6 @@ int Find(int[] array)
 }
 
 int number = Prompt("Введите сколько чисел нужно проверить: ");
-// int [] array = Array(number);
 System.Console.WriteLine($"Положительных чисел, введенных пользователем, = {Find(Array(number))}");
 
 
