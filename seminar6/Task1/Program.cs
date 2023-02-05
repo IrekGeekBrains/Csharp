@@ -8,15 +8,6 @@ int Prompt(string message)
     return Convert.ToInt32(Console.ReadLine());
 }
 
-void PrintArray(int[] array)
-{
-    for (int i = 0; i < array.Length; i++)
-    {
-        System.Console.Write($"{array[i]}\t");
-    }
-    System.Console.WriteLine();
-}
-
 int[] Array(int number)
 {
     int[] array = new int[number];
@@ -43,3 +34,5 @@ int Find(int[] array)
 int number = Prompt("Введите сколько чисел нужно проверить: ");
 // int [] array = Array(number);
 System.Console.WriteLine($"Положительных чисел, введенных пользователем, = {Find(Array(number))}");
+
+
